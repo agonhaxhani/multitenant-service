@@ -4,9 +4,9 @@ Multi-Tenancy:
 Implements multi tenants by adding different schemas for tenants
 Separates the data on schema basis
 
-How to Set-Up
-Install Java 17
-Install Docker Desktop
+**How to Set-Up?**
+1. Install Java 17
+2. Install Docker Desktop
 
 1. run **docker compose up -d** so the DB will be Created. I used PSQL
 2. mvn clean install -DskipTests=true
